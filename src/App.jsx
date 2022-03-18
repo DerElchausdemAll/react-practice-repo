@@ -1,13 +1,12 @@
-import React from "react";
-import Button from "../src/components/Button";
+import React, { useState, useEffect } from "react";
+import TodoList from "./components/TodoList";
 
 const App = () => {
-  return (
-    <div>
-      <h1>Hello test</h1>
-      <Button>Click me!</Button>
-    </div>
-  );
+	return (
+		<div>
+			<TodoList />
+		</div>
+	);
 };
 
 export default App;
