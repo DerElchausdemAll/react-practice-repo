@@ -1,0 +1,17 @@
+body {
+	background: white;
+	color: black;
+}
+
+.dark {
+	background: black;
+	color: white;
+}
+
+.form {
+	display: flex;
+}
+
+.todo {
+	margin: 10px;
+}

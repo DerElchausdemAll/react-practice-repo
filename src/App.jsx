@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
-import TodoList from "./components/TodoList";
+import React from "react";
+import TodoWithZustand from "./components/TodoWithZustand";
+// import TodoList from "./components/TodoList"; Version Alpha without Zustand
 
 const App = () => {
 	return (
 		<div>
-			<TodoList />
+			{/* <TodoList />  Version Alpha without Zustand*/}
+			<TodoWithZustand />
 		</div>
 	);
 };
