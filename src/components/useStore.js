@@ -16,7 +16,7 @@ const useStore = create(
 			deleteTodo: index => {
 				set(
 					produce(state => {
-						state.todos.splice(index + 1, 1);
+						state.todos.splice(index, 1);
 					})
 				);
 			},
