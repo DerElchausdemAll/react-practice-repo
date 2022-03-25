@@ -9,7 +9,7 @@ import CheckIcon from "@mui/icons-material/Check";
 const TodosListZustand = () => {
 	const todos = useStore(state => state.todos);
 	const deleteTodo = useStore(state => state.deleteTodo);
-	const checkTodo = useStore(state => state.checkTodo);
+	// const checkTodo = useStore(state => state.checkTodo);
 	const editTodo = useStore(state => state.editTodo);
 	const setEditValue = useStore(state => state.setEditValue);
 	const saveEditTodo = useStore(state => state.saveEditTodo);
