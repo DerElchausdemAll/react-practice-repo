@@ -7,7 +7,7 @@ export const StyledContainer = styled(Container)`
 	display: flex;
 	justify-content: center;
 	/* border-radius: 10px; */
-	background: white;
+	background: black;
 	color: white;
 `;
 export const StyledBox = styled(Box)`
